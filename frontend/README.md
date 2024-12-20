@@ -13,3 +13,7 @@
 `npm cache clean --force`
 
 `npm install`
+
+# Deploy
+
+Deploy to github pages `npm run deploy`
