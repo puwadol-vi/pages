@@ -1,5 +1,10 @@
-function App() {
-  return <h1>Welcome to the Home Page!</h1>;
+import React from 'react'
+const App: React.FC = () => {
+  return (
+    <div>
+      <h1>Welcome to the First Page!</h1>
+    </div>
+  )
 }
 
-export default App;
+export default App
