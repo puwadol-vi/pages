@@ -2,18 +2,24 @@
 
 `npm create vite@latest frontend -- --template react-ts`
 
+## Autofix
+
+Download VS Code extension [ESLint](vscode:extension/dbaeumer.vscode-eslint) and [Prettier](vscode:extension/esbenp.prettier-vscode)
+
 # Run
 
-`npm run dev`
+- `npm install`
 
-# Clear
+- `npm run dev`
 
-`rm -rf node_modules package-lock.json`
+## Clear
 
-`npm cache clean --force`
+- `rm -rf node_modules package-lock.json`
 
-`npm install`
+- `npm cache clean --force`
+
+- `npm install`
 
 # Deploy
 
-Deploy to github pages `npm run deploy`
+Github pages `npm run deploy`
