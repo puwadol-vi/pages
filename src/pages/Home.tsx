@@ -8,10 +8,18 @@ const users = [
   { id: 4, name: 'Bob Brown' },
 ]
 
+// component
+function X(){
+  return (
+    <button>Click me</button>
+  )
+}
+
 const App: React.FC = () => {
   return (
     <div>
       <h1>User List</h1>
+      <X />
       <ul>
         {users.map((user) => (
           <li key={user.id}>

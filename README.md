@@ -8,18 +8,18 @@ Download VS Code extension [ESLint](vscode:extension/dbaeumer.vscode-eslint) and
 
 # Run
 
-- `npm install`
+- `yarn install`
 
-- `npm run dev`
+- `yarn dev`
 
 ## Clear
 
 - `rm -rf node_modules package-lock.json`
 
-- `npm cache clean --force`
+- `yarn cache clean --force`
 
-- `npm install`
+- `yarn install`
 
 # Deploy
 
-Github pages `npm run deploy`
+Github pages `yarn deploy:gh`
