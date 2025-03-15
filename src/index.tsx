@@ -5,24 +5,29 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import App from './pages/App.tsx'
 import Home from './pages/Home.tsx'
 import UserPage from './pages/UserPage.tsx'
+import HealthCheck from './pages/HealthCheck.tsx'
 
 const router = createBrowserRouter(
   [
     {
       path: '/',
-      element: <Home />, // Home page listing users
+      element: <Home />,
     },
     {
-      path: '/user/:id', // User page with ID
+      path: '/user/:id',
       element: <UserPage />,
     },
     {
       path: '/app',
-      element: <App />, // Home page listing users
+      element: <App />,
+    },
+    {
+      path: "/health",
+      element: <HealthCheck />,
     },
   ],
   {
-    basename: '/pages',
+    basename: '/pages', // change
   },
 )
 

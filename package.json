@@ -1,8 +1,9 @@
 {
+  "comment": "// change name and homepage",
   "name": "frontend",
+  "homepage": "https://puwadol-vi.github.io/pages",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://puwadol-vi.github.io/pages",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",

@@ -6,6 +6,10 @@
 
 Download VS Code extension [ESLint](vscode:extension/dbaeumer.vscode-eslint) and [Prettier](vscode:extension/esbenp.prettier-vscode)
 
+# Clone
+
+- search `// change` and edit
+
 # Run
 
 - `yarn install`

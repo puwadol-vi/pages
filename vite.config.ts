@@ -3,7 +3,7 @@ import { defineConfig } from 'vite'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/pages',
+  base: '/pages', // change
   server: {
     host: '0.0.0.0',
     port: 8000,
