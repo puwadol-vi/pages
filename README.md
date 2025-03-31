@@ -24,6 +24,12 @@ Download VS Code extension [ESLint](vscode:extension/dbaeumer.vscode-eslint) and
 
 - `yarn install`
 
-# Deploy
+# Deploy Github pages
 
-Github pages `yarn deploy:gh`
+- `yarn build`
+
+- `yarn deploy:gh`
+
+https://www.npmjs.com/package/@vis.gl/react-google-maps
+
+https://www.npmjs.com/package/@react-google-maps/api

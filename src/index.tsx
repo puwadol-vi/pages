@@ -3,9 +3,9 @@ import ReactDOM from 'react-dom/client'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
 import App from './pages/App.tsx'
+import HealthCheck from './pages/HealthCheck.tsx'
 import Home from './pages/Home.tsx'
 import UserPage from './pages/UserPage.tsx'
-import HealthCheck from './pages/HealthCheck.tsx'
 
 const router = createBrowserRouter(
   [
